@@ -7,6 +7,10 @@ body {
     padding: 5%;
 }
 
+h1 {
+    color: #6D3B47;
+}
+
 p {
     color: #474747;
 }
@@ -19,7 +23,7 @@ p {
 
 #string {
     width: 90%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     border-radius: 2px;
     padding: 1% 4.5%;
 }
@@ -38,4 +42,19 @@ p {
 #submit-button:hover {
     opacity: 95%;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.6);
+}
+
+#result-display {
+    height: 58px;
+    margin-top: 10%;
+    padding: 5%;
+    border-radius: 2px;
+    border: solid 1px #474747;
+    background-color: rgba(97, 112, 115, 0.3);
+}
+
+#palindrome {
+    color: #121212;
+    font-weight: bold;
+    text-align: center;
 }
