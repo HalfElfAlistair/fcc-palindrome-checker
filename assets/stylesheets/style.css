@@ -3,5 +3,39 @@ body {
 	overflow-x: hidden;
 	margin: 0;
     line-height: 1.6;
-    background-color: #F9FAF8;
+    background-color: #6D3B47;
+    padding: 5%;
+}
+
+p {
+    color: #474747;
+}
+
+.conversion-section {
+    background-color: #F5F0F6;
+    padding: 5%;
+    border-radius: 2px;
+}
+
+#string {
+    width: 90%;
+    margin-bottom: 5%;
+    border-radius: 2px;
+    padding: 1% 4.5%;
+}
+
+#submit-button {
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+    background-color: #6D3B47;
+    color: #F5F0F6;
+    font-weight: bold;
+    padding: 3%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+#submit-button:hover {
+    opacity: 95%;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.6);
 }
