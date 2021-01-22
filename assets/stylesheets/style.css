@@ -58,3 +58,12 @@ p {
     font-weight: bold;
     text-align: center;
 }
+
+
+@media only screen and (min-width: 420px) {
+    .conversion-section {
+        width: 336px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
