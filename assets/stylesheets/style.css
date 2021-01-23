@@ -42,6 +42,16 @@ p {
 #submit-button:hover {
     opacity: 95%;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.6);
+    text-decoration: underline;
+}
+
+#submit-button:focus {
+    outline: solid 3px gold;
+}
+
+#submit-button:active {
+    box-shadow: 1px 1px 3px rgba(255, 215, 0, 1);
+    text-decoration: none;
 }
 
 #result-display {
@@ -66,4 +76,48 @@ p {
         margin-left: auto;
         margin-right: auto;
     }
+
+    #string,
+    #submit-button {
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (min-width: 700px) {
+
+	h1 {
+		font-size: 34px;
+	}
+
+	p {
+		font-size: 17px;
+    }
+    
+    #string,
+    #submit-button {
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    .conversion-section {
+        width: 372px;
+    }
+
+	h1 {
+		font-size: 38px;
+	}
+
+	p {
+		font-size: 18px;
+    }
+    
+    #string,
+    #submit-button {
+        font-size: 17px;
+    }
+
 }
